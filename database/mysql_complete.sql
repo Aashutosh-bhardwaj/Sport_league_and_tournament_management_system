@@ -1,9 +1,3 @@
--- ============================================================================
--- Sports League & Tournament Management System - Complete MySQL / MariaDB Export
--- Generated at 2026-11-25T12:13:14.827Z
--- Compatible with: MySQL 8.0+, MariaDB 10.4+, XAMPP / phpMyAdmin, MySQL Workbench
--- ============================================================================
-
 CREATE DATABASE IF NOT EXISTS sports_league_db
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
