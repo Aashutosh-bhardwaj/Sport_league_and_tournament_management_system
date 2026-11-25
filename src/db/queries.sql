@@ -14,7 +14,7 @@ FROM v_points_table
 WHERE tournament_id = 1
 ORDER BY rank_pos ASC;
 
--- Q2. Top Scorers with Assists & Minutes Per Goal (Aggregates + Window Function)
+
 SELECT
   scorer_rank AS Rank,
   full_name AS Player,
@@ -28,7 +28,7 @@ WHERE total_goals > 0
 ORDER BY total_goals DESC, total_assists DESC
 LIMIT 15;
 
--- Q3. Multi-Season Player Career Summary (JOINs + GROUP BY + Subquery)
+
 SELECT
   p.player_id,
   p.full_name,
@@ -44,7 +44,7 @@ GROUP BY p.player_id
 HAVING career_goals >= 2 OR career_assists >= 2
 ORDER BY career_goals DESC, career_assists DESC;
 
--- Q4. Venue Utilization & Average Scoring Rate (LEFT JOIN + Aggregates)
+
 SELECT
   venue_name AS Venue,
   city AS City,
@@ -55,7 +55,6 @@ SELECT
 FROM v_venue_utilization
 ORDER BY total_matches DESC, capacity DESC;
 
--- Q5. Teams with Above-Average Goal Scoring (Correlated Subquery)
 SELECT
   t.name AS Team,
   t.category AS Category,
@@ -70,7 +69,7 @@ WHERE s.goals_for > (
 )
 ORDER BY s.points DESC;
 
--- Q6. Referee Workload & Disciplinary Strictness (JOIN + GROUP BY + HAVING)
+
 SELECT
   o.full_name AS Referee,
   o.license_no AS License,
@@ -84,7 +83,7 @@ GROUP BY o.official_id
 HAVING Matches_Officiated >= 1
 ORDER BY Matches_Officiated DESC, Cards_Issued DESC;
 
--- Q7. Payment Revenue Breakdown by Category & Running Percentage
+
 SELECT
   category AS Category,
   COUNT(*) AS Transactions,
