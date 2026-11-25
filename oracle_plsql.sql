@@ -1,8 +1,3 @@
--- ============================================================================
--- Sports League & Tournament Management System
--- Oracle PL/SQL Equivalent Implementation
--- Includes: Tables, Sequences, Triggers, and Transactional Stored Procedures
--- ============================================================================
 
 -- 1. SEQUENCES
 CREATE SEQUENCE seq_sport START WITH 1 INCREMENT BY 1;
