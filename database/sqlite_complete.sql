@@ -1,12 +1,3 @@
--- ============================================================================
--- Sports League & Tournament Management System - Complete SQLite Export
--- Generated at 2026-11-25T12:13:14.815Z
--- Compatible with: SQLite 3, DB Browser for SQLite, DBeaver, VS Code SQLite
--- ============================================================================
-
--- Sports League & Tournament Management System
--- Relational Database Schema (3NF) for SQLite (sql.js)
-
 PRAGMA foreign_keys = ON;
 
 -- 1. SPORT
