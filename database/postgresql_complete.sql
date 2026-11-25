@@ -1,8 +1,3 @@
--- ============================================================================
--- Sports League & Tournament Management System - Complete PostgreSQL Export
--- Generated at 2026-11-25T12:13:14.830Z
--- Compatible with: PostgreSQL 14+, pgAdmin 4, DBeaver, Supabase, Neon, Cloud SQL
--- ============================================================================
 
 DROP VIEW IF EXISTS v_tournament_revenue CASCADE;
 DROP VIEW IF EXISTS v_venue_utilization CASCADE;
