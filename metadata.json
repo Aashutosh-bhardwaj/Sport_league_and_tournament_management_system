@@ -1,0 +1,8 @@
+{
+  "name": "Remix Sports League \u0026 Tournament Management System",
+  "description": "Relational database management application for sports leagues, teams, players, fixtures, match results, standings, officials, venues, and analytics powered by in-browser SQLite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
