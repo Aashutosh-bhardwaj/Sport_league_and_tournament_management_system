@@ -1,7 +1,4 @@
--- Sports League & Tournament Management System
--- Analytical SQL Queries Reference (JOINs, GROUP BY / HAVING, Subqueries, Window Functions)
 
--- Q1. Live Standings with Window Function Ranking and Goal Efficiency
 SELECT
   rank_pos AS Rank,
   team_name AS Team,
